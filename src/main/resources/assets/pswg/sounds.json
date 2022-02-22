@@ -205,5 +205,12 @@
 		"sounds": [
 			"pswg:door/pneumatic"
 		]
+	},
+	"mw.species.jawa": {
+		"sounds": [
+			{
+				"name": "pswg:species/jawa"
+			}
+		]
 	}
 }

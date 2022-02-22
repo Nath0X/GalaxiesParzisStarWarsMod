@@ -25,6 +25,7 @@ public class SwgSounds
 		Lightsaber.register();
 		Blaster.register();
 		Ship.register();
+		MineWars.register();
 
 		for (var pair : SOUND_EVENTS.entrySet())
 			Registry.register(Registry.SOUND_EVENT, pair.getKey(), pair.getValue());
@@ -115,6 +116,13 @@ public class SwgSounds
 
 		private static void register()
 		{
+		}
+	}
+
+	public static class MineWars {
+		public static final SoundEvent JAWA = of(Resources.id("species.jawa"));
+
+		private static void register() {
 		}
 	}
 }
